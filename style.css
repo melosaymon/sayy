@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(155, 87, 87);
+
+.head{ 
+  padding-left: 60px;
+      color: white;
+      padding-top: 10px;
+      font-family: "Georgia", serif;
+      margin: 0 0 19px 40px;
+      float:left;
+      font-size:40px;
+  }
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 0;
+  z-index: 1000;
+}
+ul{      
+   padding-bottom: 30px;
+   margin-right:25px; 
+   padding-right:29px;
+}
+.li1{
+  
+  animation: 2s list1;
+   float:right;
+   display: inline;
+   padding-top:25px;
+   font-size:20px;
+}
+
+li a {
+   text-decoration:none;
+   color:rgb(255, 255, 255);
+   padding:30px;
+}
+li a:hover{
+    color:rgba(255, 255, 255, 0.551);
+    font-size: 21px;
+
+}
+li a:active{
+  font-weight: bold; 
+  color: rgb(9, 8, 8);
+}
+
+.box{
+   position: relative;
+   justify-content: center;
+   min-height: 100vh;
+   color: white;
+   text-align: center;
+}
+
+.box video{
+ 
+       border-radius: 30px;
+        position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    z-index: -1;
+}
+section {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding: 110px 100px;
+}
+P{ 
+    color: white;
+    text-align: justify;
+  text-justify: inter-word;
+    margin-top: 10%;
+  line-height: 2.5rem ;
+  font-weight: 300;
+  letter-spaceing: 0.05rem;
+    
+}
